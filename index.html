@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAUL Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scrpts/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="header">
+        <img src="images/waul_logo1.jpg" class="head__logo">
+        <ul class="navigation">
+            <li> <a>About</a> </li>
+            <li> <a>Contacts</a> </li>
+        </ul>
+        <img src="images/Cat-Caught-Smuggling1.jpg" class="head__cat">
+        <p class="head__text">That is how your cat
+            looks in a common
+            pet carrier</p>
+    </div>
+    <!--<div class="timer">
+        <p class="timer__text">
+            Our carrier is going to solve this problem in:
+        </p>
+        <div class="timer__clocks">
+            <ul>
+                <li class="chart" data-percent="75"><span>26</span>Days</li>
+                <li class="chart" data-percent="15"><span>15</span>Hours</li>
+                <li class="chart" data-percent="83"><span>50</span>Minutes</li>
+            </ul>
+
+        </div>
+    </div>-->
+
+    <div class="timer">
+        <p class="timer__text">
+            Our carrier is going to solve this problem in:
+        </p>
+        <div id="countdown"></div>
+
+        <p id="note"></p>
+    </div>
+
+
+
+
+    <div class="email">
+        <p class="email__header">
+            While You are waiting,
+            get awesome pet care videos and checklist for FREE on your email!
+        </p>
+        <form action= "post.php" method= "POST">
+            <div class="email__buttons">
+                <input type= "text" name= "email" placeholder="E-mail" class="email__form">
+                 <input type= "submit" value= "Send" class="email__btn">
+            </div>
+    </div>
+
+    <!-- JavaScript includes -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="assets/countdown/jquery.countdown.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="scrpts/index.js"></script>
+</body>
+</html>

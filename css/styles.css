@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-image: url("../images/white-background-5.jpg");
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+}
+
+.head__logo {
+    width: 20%;
+    margin: 3% 70% 10px 10%;
+    float: left;
+}
+
+.navigation li,
+.navigation a
+{
+    list-style-type: none;
+    display: inline;
+    font-family: "Bell MT";
+    font-weight: bold;
+    font-size: 37px;
+    color: black;
+    padding: 0 20px 0 20px;
+}
+.navigation {
+    float: left;
+    margin-top: -47px;
+    margin-left: 65%;
+}
+
+.head__cat {
+    width: 100%;
+    margin-top: 10px;
+}
+p {
+    font-family: "Berlin Sans FB";
+}
+.head__text {
+    position: absolute;
+    top: 60%;
+    color: white;
+    font-size: 33px;
+    width: 23%;
+    text-align: center;
+    left: 5%;
+
+}
+.timer__text {
+    text-align: center;
+    font-size: 35px;
+}
+
+.timer {
+    margin: 80px 0 150px 0;
+    /*margin-top: -45px;*/
+    /*background-image: linear-gradient(135deg, white, lightgray);*/
+}
+
+/*                    --------------------                         */
+
+
+
+/*.timer__clocks{
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    color: darkred;
+    font-family: 'Helvetica Neue', 'Arial';
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1;
+
+}
+
+a{
+    display: block;
+    margin-bottom: 1em;
+    color: olivedrab;
+    text-decoration: none;
+}
+
+a:last-of-type{
+     font-size: 0.9em;
+ }
+a:hover{
+     text-decoration: underline;
+ }
+
+
+ul{
+    margin-bottom: 4em;
+}
+
+.chart{
+    padding-bottom: 30px;
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    margin: 0 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+span{
+    display: block;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+canvas{
+    position: absolute;
+    left: 0;
+    top: -23px;
+}*/
+
+
+/*                     ------------------------                    */
+
+
+.email {
+    display: block;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3%;
+    padding-top: 10px;
+    padding-bottom: 7%;
+}
+
+.email__form {
+    margin-left: -20%;
+    width: 200px;
+    height: 25px;
+    /*border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;*/
+    border-color: aqua;
+    text-align: center;
+}
+.email__btn{
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 40%;
+    margin-left: -10px;
+    height: 32px;
+    width: 120px;
+    border-color: aqua;
+    color: darkgreen;
+    text-shadow: navy;
+    font-weight: bold;
+    background-color: powderblue;
+}
+.email__buttons {
+    margin-left: 20%;
+}
+
+@media screen and (max-device-width: 500px) {
+    body {
+
+    }
+
+    .head__logo {
+        width: 45%;
+    }
+    .head__text {
+        font-size: 38px;
+        top: 55%;
+    }
+    .head__cat {
+        width: 100%;
+    }
+    .timer__text {
+        font-size: 45px;
+    }
+    .chart{
+        width: 115px;
+        height: 115px;
+    }
+    canvas{
+
+        left: 10px;
+        top: -23px;
+    }
+    .navigation {
+        margin-left: 57%;
+        margin-top: -55px;
+    }
+    .navigation li,
+    .navigation a
+    {
+
+        font-size: 38px;
+        padding: 0 10px 0 10px;
+    }
+    .head__logo {
+        width: 35%;
+
+    }
+}
