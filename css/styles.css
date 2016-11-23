@@ -20,15 +20,16 @@ body {
     list-style-type: none;
     display: inline;
     font-family: "Bell MT";
-    font-weight: bold;
-    font-size: 37px;
+    text-transform: uppercase;
+    font-size: 28px;
     color: black;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 25px;
 }
 .navigation {
     float: left;
     margin-top: -47px;
-    margin-left: 65%;
+    margin-left: 55%;
+
 }
 
 .head__cat {
@@ -37,12 +38,13 @@ body {
 }
 p {
     font-family: "Berlin Sans FB";
+    text-transform: uppercase;
 }
 .head__text {
     position: absolute;
     top: 60%;
     color: white;
-    font-size: 33px;
+    font-size: 28px;
     width: 23%;
     text-align: center;
     left: 5%;
@@ -50,11 +52,11 @@ p {
 }
 .timer__text {
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .timer {
-    margin: 80px 0 150px 0;
+    margin: 130px 0 130px 0;
     /*margin-top: -45px;*/
     /*background-image: linear-gradient(135deg, white, lightgray);*/
 }
@@ -127,7 +129,7 @@ canvas{
     height: 30%;
     margin-left: 10%;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 3%;
     padding-top: 10px;
     padding-bottom: 7%;
@@ -193,7 +195,7 @@ canvas{
     .navigation a
     {
 
-        font-size: 38px;
+        font-size: 32px;
         padding: 0 10px 0 10px;
     }
     .head__logo {
