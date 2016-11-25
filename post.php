@@ -30,9 +30,8 @@ if (!preg_match("|^([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})|is",
 {
 
     echo
-    "<center>Вернитесь <a 
-href='javascript:history.back(1)'><B>назад</B></a>. Вы 
-указали неверные данные!";
+    "<center>Please come back <a 
+href='javascript:history.back(1)'><B>back</B></a>. Invalid data";
 
 }
 
@@ -78,7 +77,7 @@ function reload() {location = \"$backurl\"}; setTimeout('reload()', 6000);
  
 $msg 
  
-<p>Сообщение отправлено! Подождите, сейчас вы будете перенаправлены на главную страницу...</p>";
+<p>Message sent! Wait for redirection to main page...</p>";
     exit;
 
 }
